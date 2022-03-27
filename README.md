@@ -21,7 +21,7 @@ Results: Using bulleted lists and images to support your answers, address the fo
 
 Data Preprocessing
 
-What variable(s) are considered the target(s) for your model?
+##What variable(s) are considered the target(s) for your model?
 
 These predictions will be based on the 'IS_SUCCESSFUL' column in the provided data.
 
