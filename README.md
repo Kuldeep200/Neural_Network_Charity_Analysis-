@@ -16,3 +16,47 @@ INCOME_AMT—Income classification
 SPECIAL_CONSIDERATIONS—Special consideration for application
 ASK_AMT—Funding amount requested
 IS_SUCCESSFUL—Was the money used effectivel
+
+Results: Using bulleted lists and images to support your answers, address the following questions.
+
+Data Preprocessing
+
+What variable(s) are considered the target(s) for your model?
+
+These predictions will be based on the 'IS_SUCCESSFUL' column in the provided data.
+
+What variable(s) are considered to be the features for your model?
+
+AFFILIATION
+APPLICATION_TYPE
+ASK_AMT
+CLASSIFICATION
+INCOME_AMT
+ORGANIZATION
+SPECIAL_CONSIDERATIONS
+STATUS
+USE_CASE
+
+What variable(s) are neither targets nor features, and should be removed from the input data?
+
+The columns for "NAME" and "EIN" have no direct effect on the success/falure rate, and have been excluded from processing.
+
+Compiling, Training, and Evaluating the Model
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+Initial preparation for the Sequential Neural Network specified 43 input features, into three processing layers that began with 80 neurons and decreased to 30.
+
+
+Were you able to achieve the target model performance?
+
+The target performance of 80% accuracy was not met (72.75%).
+
+
+What steps did you take to try and increase model performance?
+
+i tried to add more layers and neurons, but the accurcy for three results was still 72`%
+
+Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
+I would  recommend non-sequential hyperparameter models as a way to improve accuracy. We have minimized loss by using these tuned models, despite not increasing success rate to 75%
